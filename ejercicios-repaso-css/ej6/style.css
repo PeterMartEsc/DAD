@@ -1,0 +1,14 @@
+th{
+    font-weight: bold;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td{
+    width: 200px;
+    border: solid 1px;
+}

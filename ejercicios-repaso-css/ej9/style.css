@@ -1,0 +1,23 @@
+div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.bloqueRojo{
+    background-color: red;
+    top: 100px;
+    left: 100px;
+}
+
+.bloqueAzul{
+    background-color: blue;
+    top: 150px;
+    left: 150px;
+}
+
+.bloqueVerde{
+    background-color: green;
+    top: 200px;
+    left: 200px;
+}

@@ -1,0 +1,16 @@
+#titulo{
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+
+#p1{
+    color: red;
+    text-align: right;
+}
+
+#p2{
+    color: blue;
+}

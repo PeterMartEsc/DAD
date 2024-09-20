@@ -1,0 +1,24 @@
+th{
+    width: 170px;
+    font-size: 18px;
+}
+
+td{
+    background-color: white;
+    color: blue;
+    font-family: Arial;
+    border: solid  1px black;
+}
+
+table{
+    border-collapse: collapse;
+    border-left: 4px;
+    border-right: 4px;
+    border-bottom: 8px;
+    border-top: 8px;
+}
+
+.destacada{
+    background-color: red;
+    color: white;
+    border: solid  1px black;}
