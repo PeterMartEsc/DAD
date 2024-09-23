@@ -1,0 +1,37 @@
+/* Hoja de estilo para la pokedex */
+/*3466AF*/
+
+body{
+    background-color: #3466AF;
+    
+}
+
+.header{
+    text-align: center;
+}
+
+.logo{
+    width: 600px;
+    height: 200px;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+
+    background-color: red;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: DejaVu Sans Mono;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
