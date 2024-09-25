@@ -58,6 +58,18 @@ body{
     background: linear-gradient(rgb(248,247,169), rgb(255,238,0));
 }
 
+.height{
+    border: 1px solid rgb(93, 204, 255);
+    font: bold;
+    background: linear-gradient(rgb(104, 202, 248), rgb(26, 122, 247));
+}
+
+.weight{
+    border: 1px solid rgb(112, 255, 93);
+    font: bold;
+    background: linear-gradient(rgb(112, 255, 93), rgb(11, 180, 39));
+}
+
 .card .front{
     display: none;
 }
@@ -68,13 +80,11 @@ body{
 
 .card:hover .front{
     display: inline-block;
-    animation: resizePokemon 1s infinite;
+    animation: resizePokemon 1s alternate;
 }
 
 @keyframes resizePokemon{
     0%{transform: scale(1)}
 
-    50%{transform: scale(1.2)}
-
-    100%{transform: scale(1)}
+    100%{transform: scale(1.2)}
 }

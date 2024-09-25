@@ -20,7 +20,7 @@ button.addEventListener("click", () => {
 // Función asíncrona que va a realizar operaciones con promesas para realizar la llamada a la API
 const startPokedex = async () => {
     // Bucle for que itera desde 1 hasta 151, que son los primeros 151 Pokemon
-    for(var i = 1; i <= 151; i++) {
+    for(var i = 1; i <= 493; i++) {
         // Utilizamos fetch para hacer una solicitud a la API donde i representa el número de Pokemon
         await fetch("https://pokeapi.co/api/v2/pokemon/" + i + "/")
             .then(function(result) {
