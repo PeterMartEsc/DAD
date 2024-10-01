@@ -1,4 +1,19 @@
 body{
     cursor: url(../assets/images/cursor.png), auto;
-    background-color: black;
+    /*background-color: black;*/
+}
+
+.header{
+    text-align: center;
+}
+
+.logo{
+    width: 600px;
+    height: 250px;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

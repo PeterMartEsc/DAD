@@ -24,13 +24,15 @@ const startWiki = async () => {
                 return result.json();
             // Convertimos la respuesta de la API en un objeto JSON
             }).then(function(result) {
-                for (let champion of result.data) {
+                for (let champion in result.data) {
                     let data = result.data[champion];
                     let champ = new Champ(data);
                     pushChamp(champ);
                 }
+                
             });
     
+            console.log(champs);
 
     await showWiki();
 };
