@@ -1,5 +1,5 @@
 // Importamos la clase Pokemon desde el archivo Pokemon.js
-import Pokemon from './Pokemon.js';
+import Champ from './Champ.js';
 
 var champs = [];
 
@@ -10,9 +10,9 @@ button.addEventListener("click", () => {
 
     // Al hacer click sobre el botón, cambiamos su visibilidad y lo ocultamos
     document.querySelector('#button').style.visibility = 'hidden';
-    // También cambiamos la visibilidad del elemento #pokedex, y lo mostramos en pantalla
+    // También cambiamos la visibilidad del elemento #wiki, y lo mostramos en pantalla
     document.querySelector('#wiki').style.visibility = 'visible';
-    // LLamada a la función startPokedex() que comenzará el proceso de mostrar los Pokemon
+    // LLamada a la función startwiki() que comenzará el proceso de mostrar los Pokemon
     startWiki();
 });
 
@@ -24,50 +24,52 @@ const startWiki = async () => {
                 return result.json();
             // Convertimos la respuesta de la API en un objeto JSON
             }).then(function(result) {
-                const data = result;
-                const champ = new Champ (data);
-                pushChamp(champ);
+                for (let champion of result.data) {
+                    let data = result.data[champion];
+                    let champ = new Champ(data);
+                    pushChamp(champ);
+                }
             });
     
 
-    await showPokedex();
+    await showWiki();
 };
 
-// Esta función añade el Pokemon que se le pasa como parámetro al array
-function pushChamp(pokemon) {
-    pokemons.push(pokemon);
+// Esta función añade el champ que se le pasa como parámetro al array
+function pushChamp(champ) {
+    champs.push(champ);
 }
 
 // Esta función se encarga de mostrar en el DOM los Pokemon que se han obtenido y almacenado en el array 
-const showPokedex = async () => {
-    // Se obtiene una referencia al elemento con el ID pokedex en el DOM donde se insertarán las tarjetas de los Pokemon.
-    const pokedex = document.getElementById("pokedex");
-    // Iteramos sobre cada elemento del array pokemons
-    for(var i = 0; i < pokemons.length; i++) {
+const showWiki = async () => {
+    // Se obtiene una referencia al elemento con el ID wiki en el DOM donde se insertarán las tarjetas de los Pokemon.
+    const wiki = document.getElementById("wiki");
+    // Iteramos sobre cada elemento del array champs
+    for(var i = 0; i < champs.length; i++) {
         var aux =  0;
-        while (aux != pokemons[i].pkm_type.length) {
+        while (aux != champs[i].pkm_type.length) {
             if (aux == 0)
-                var tipo1 = pokemons[i].pkm_type[aux].type.name;                       
+                var tipo1 = champs[i].pkm_type[aux].type.name;                       
             if (aux == 1)   
-                var tipo2 = pokemons[i].pkm_type[aux].type.name;
+                var tipo2 = champs[i].pkm_type[aux].type.name;
             else 
                 tipo2 = "";          
             aux++; 
         }
         // Para cada Pokemon, se crea una tarjeta con imágenes (vista frontal y trasera), el nombre y los tipos
-        // Esta estructura HTML se añade dinámicamente al contenedor pokedex
-        pokedex.innerHTML +=    `<div class="card">
-                                    <img src="${pokemons[i].pkm_back}">
-                                    <img class="front" src="${pokemons[i].pkm_front}"><br>
-                                    ${pokemons[i].id}. ${pokemons[i].name}<br>
+        // Esta estructura HTML se añade dinámicamente al contenedor wiki
+        wiki.innerHTML +=    `<div class="card">
+                                    <img src="${champs[i].img}">
+                                    <img class="front" src="${champs[i].pkm_front}"><br>
+                                    ${champs[i].id}. ${champs[i].name}<br>
                                     <div class="types">
                                         ${tipo1} ${tipo2}
                                     </div>
                                     <div class="height">
-                                        ${pokemons[i].height/10} m
+                                        ${champs[i].height/10} m
                                     </div>
                                     <div class="weight">
-                                        ${pokemons[i].weight/10} kg
+                                        ${champs[i].weight/10} kg
                                     </div>
                                 </div>`
     }
