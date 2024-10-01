@@ -46,30 +46,24 @@ const showWiki = async () => {
     const wiki = document.getElementById("wiki");
     // Iteramos sobre cada elemento del array champs
     for(var i = 0; i < champs.length; i++) {
-        var aux =  0;
-        while (aux != champs[i].pkm_type.length) {
+        /*var aux =  0;
+        while (aux != champs[i].champ_types.length) {
             if (aux == 0)
-                var tipo1 = champs[i].pkm_type[aux].type.name;                       
+                var tipo1 = champs[i].champ_types[aux].i.name;                       
             if (aux == 1)   
                 var tipo2 = champs[i].pkm_type[aux].type.name;
             else 
                 tipo2 = "";          
             aux++; 
-        }
+        }*/
         // Para cada Pokemon, se crea una tarjeta con imágenes (vista frontal y trasera), el nombre y los tipos
         // Esta estructura HTML se añade dinámicamente al contenedor wiki
-        wiki.innerHTML +=    `<div class="card">
+        wiki.innerHTML +=    `<div class="champSelect">
                                     <img src="${champs[i].img}">
-                                    <img class="front" src="${champs[i].pkm_front}"><br>
-                                    ${champs[i].id}. ${champs[i].name}<br>
-                                    <div class="types">
-                                        ${tipo1} ${tipo2}
-                                    </div>
-                                    <div class="height">
-                                        ${champs[i].height/10} m
-                                    </div>
-                                    <div class="weight">
-                                        ${champs[i].weight/10} kg
+                                    ${champs[i].name}<br>
+                                    ${champs[i].title}<br>
+                                    <div class="resource">
+                                        ${champs[i].champ_resource}
                                     </div>
                                 </div>`
     }
