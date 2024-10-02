@@ -5,6 +5,13 @@ export default class Champ {
         this.title = data.title;                        // Título del champ
         this.img = data.image.full;                     // Champ entero
         this.champ_resource = data.partype;             // Tipo del recurso para usar habilidades
-        //this.champ_types = data.tags;                 // Tipos del champ  
+        this.id = data.id;                              // ID del champ
+        this.description = data.blurb;
+        // this.champ_types = data.tags;                 // Tipos del champ  
     }
+
+    setImg(img){
+        this.img=img;
+    }
+
 }

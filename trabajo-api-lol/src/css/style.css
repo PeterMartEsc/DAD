@@ -1,6 +1,6 @@
 body{
     cursor: url(../assets/images/cursor.png), auto;
-    /*background-color: black;*/
+    background-color: black;
 }
 
 .header{
@@ -16,4 +16,49 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+#wiki{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);  /*1fr = 100px*/ /*Numero de columnas y su tamañano*/
+    gap: 10px;                         /*Separación entre columnas*/
+    width: 100%;
+}
+
+.champSelect{
+    border: 2px solid rgb(78, 78, 78);
+    border-radius: 5px;
+    font-family: DejaVu Sans Mono, monospace;
+    text-align: center;
+}
+
+.description{
+    display: none;
+}
+
+img:hover{
+    filter: blur(8px);
+}
+
+img:hover .description{
+    display: inline-block;
+}
+
+.nombre{
+    margin: 0;
+    border: 2px solid;
+    font: bold;
+    background: linear-gradient(rgb(248,247,169), rgb(255, 174, 0));
+}
+
+.resource{
+    border: solid 2px;
+    background: linear-gradient(rgb(0, 255, 255), rgb(0, 140, 255));
+}
+
+@keyframes showDescription{
+    0%{transform: scale(1)}
+
+    100%{transform: scale(1.2)}
 }

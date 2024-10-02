@@ -27,6 +27,7 @@ const startWiki = async () => {
                 for (let champion in result.data) {
                     let data = result.data[champion];
                     let champ = new Champ(data);
+                    champ.setImg(`https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champ.id}_0.jpg`);  //
                     pushChamp(champ);
                 }
                 
@@ -58,12 +59,19 @@ const showWiki = async () => {
                 tipo2 = "";          
             aux++; 
         }*/
+
+
         // Para cada Pokemon, se crea una tarjeta con imágenes (vista frontal y trasera), el nombre y los tipos
         // Esta estructura HTML se añade dinámicamente al contenedor wiki
         wiki.innerHTML +=    `<div class="champSelect">
-                                    <img src="${champs[i].img}">
+                                    <img src="${champs[i].img}"><br>
+                                    <div class="description">
+                                    ${champs[i].description}<br>
+                                    </div>
+                                    <div class="nombre">
                                     ${champs[i].name}<br>
-                                    ${champs[i].title}<br>
+                                    "${champs[i].title}"<br>
+                                    </div>
                                     <div class="resource">
                                         ${champs[i].champ_resource}
                                     </div>
