@@ -1,0 +1,75 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cover{
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.c1{
+    background-image: url("/cover1.dbde7305.jpg");
+    background-size: cover;
+}
+
+.c2{
+    background-image: url("/cover2.c1a5f2ad.jpg");
+    background-size: cover;
+
+}
+
+.c3{
+    background-image: url("/cover3.b4fdad0c.jpg");
+    background-size: cover;
+
+}
+
+.vinyl{
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    z-index: -1;
+
+}
+
+.detail{
+    background-color: rgb(252, 151, 0);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.label{
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.hole{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.open+.vinyl{
+    transform: translateX(200px);
+    transition: transform 0.5s;
+}
+
+/*.vinyl:hover{
+    transform: translate(50px);
+    transition: transform 0.8s;
+}*/
+
+
+
+
+/*# sourceMappingURL=/css.671745b4.css.map */
