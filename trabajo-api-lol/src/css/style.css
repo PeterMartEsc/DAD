@@ -18,12 +18,21 @@ body{
     justify-content: center;
 }
 
-
 #wiki{
     display: grid;
     grid-template-columns: repeat(6, 1fr);  /*1fr = 100px*/ /*Numero de columnas y su tamañano*/
     gap: 10px;                         /*Separación entre columnas*/
     width: 100%;
+}
+
+#mensaje{
+    color: white;
+    visibility: hidden;
+    
+}
+
+.description p{
+    text-align: justify;
 }
 
 .champSelect{
@@ -33,16 +42,20 @@ body{
     text-align: center;
 }
 
-.description{
+.description p{
+    color: white;
     display: none;
+    transform: translateY(-500px);
+    margin: 10px;
 }
 
-img:hover{
+.description:active .imgChamp{
     filter: blur(8px);
 }
 
-img:hover .description{
-    display: inline-block;
+.description:active p{
+    display:inline;
+    top: 0;
 }
 
 .nombre{
@@ -55,10 +68,4 @@ img:hover .description{
 .resource{
     border: solid 2px;
     background: linear-gradient(rgb(0, 255, 255), rgb(0, 140, 255));
-}
-
-@keyframes showDescription{
-    0%{transform: scale(1)}
-
-    100%{transform: scale(1.2)}
 }

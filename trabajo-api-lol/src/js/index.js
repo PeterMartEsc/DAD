@@ -6,12 +6,14 @@ var champs = [];
 // Seleccionamos el elemento button del DOM usando querySelector 
 const button = document.querySelector("button");
 
+
 button.addEventListener("click", () => {
 
     // Al hacer click sobre el botón, cambiamos su visibilidad y lo ocultamos
     document.querySelector('#button').style.visibility = 'hidden';
     // También cambiamos la visibilidad del elemento #wiki, y lo mostramos en pantalla
     document.querySelector('#wiki').style.visibility = 'visible';
+
     // LLamada a la función startwiki() que comenzará el proceso de mostrar los Pokemon
     startWiki();
 });
@@ -19,7 +21,7 @@ button.addEventListener("click", () => {
 
 const startWiki = async () => {
     
-        await fetch("https://ddragon.leagueoflegends.com/cdn/13.18.1/data/es_ES/champion.json")
+        await fetch("https://ddragon.leagueoflegends.com/cdn/14.18.1/data/es_ES/champion.json")
             .then(function(result) {
                 return result.json();
             // Convertimos la respuesta de la API en un objeto JSON
@@ -27,7 +29,7 @@ const startWiki = async () => {
                 for (let champion in result.data) {
                     let data = result.data[champion];
                     let champ = new Champ(data);
-                    champ.setImg(`https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champ.id}_0.jpg`);  //
+                    champ.setImg(skinsDeterminadas(champ.id)); ///
                     pushChamp(champ);
                 }
                 
@@ -37,6 +39,17 @@ const startWiki = async () => {
 
     await showWiki();
 };
+
+function skinsDeterminadas(champ){
+    switch(champ){
+        case 'Ahri':
+            return `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champ}_27.jpg`
+        case 'Pyke':
+            return`https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champ}_44.jpg`
+        default:
+            return `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champ}_0.jpg`
+    }
+}
 
 // Esta función añade el champ que se le pasa como parámetro al array
 function pushChamp(champ) {
@@ -64,9 +77,9 @@ const showWiki = async () => {
         // Para cada Pokemon, se crea una tarjeta con imágenes (vista frontal y trasera), el nombre y los tipos
         // Esta estructura HTML se añade dinámicamente al contenedor wiki
         wiki.innerHTML +=    `<div class="champSelect">
-                                    <img src="${champs[i].img}"><br>
                                     <div class="description">
-                                    ${champs[i].description}<br>
+                                    <img class="imgChamp" src="${champs[i].img}"><br>
+                                    <p>${champs[i].description}</p>
                                     </div>
                                     <div class="nombre">
                                     ${champs[i].name}<br>
