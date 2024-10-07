@@ -1,5 +1,6 @@
 // Importamos la clase Pokemon desde el archivo Pokemon.js
 import Champ from './Champ.js';
+//import Oke from '../assets/sounds/oke.mp3';
 
 var champs = [];
 
@@ -13,7 +14,7 @@ button.addEventListener("click", () => {
     document.querySelector('#button').style.visibility = 'hidden';
     // También cambiamos la visibilidad del elemento #wiki, y lo mostramos en pantalla
     document.querySelector('#wiki').style.visibility = 'visible';
-
+    //Oke.sound.play();
     // LLamada a la función startwiki() que comenzará el proceso de mostrar los Pokemon
     startWiki();
 });
