@@ -1,4 +1,4 @@
-6196
+6176
 57/home/dam/PeterMartEsc/DAD/trabajo-api-lol/src/index.html1728402907725750610 0
 69/home/dam/PeterMartEsc/DAD/trabajo-api-lol/src/assets/images/logo.png1727720631246334767 0
 72/home/dam/PeterMartEsc/DAD/trabajo-api-lol/src/assets/images/cursor3.png1728324896629373614 0
@@ -6,23 +6,12 @@
 50/home/dam/PeterMartEsc/DAD/trabajo-api-lol/src/css1727720178894067709 1
 57/home/dam/PeterMartEsc/DAD/trabajo-api-lol/src/js/Song.js1728326013737595021 0
 49/home/dam/PeterMartEsc/DAD/trabajo-api-lol/src/js1728326011693587352 1
-65/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.739bf03c.js1728403842102654433 0
-68/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/cursor2.68a8728b.cur1728403248507821326 0
-66/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/style.78032849.css1728403248503821305 0
-65/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/logo.08a29ce2.png1728403841962653825 0
-68/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/cursor2.dfb675bf.cur1728404125883852219 0
-67/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/cursor.728e4337.png1728403842002653998 0
-58/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.html1728404126163853376 0
-67/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/cursor.6c136806.png1728404126163853376 0
-69/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.739bf03c.js.map1728403842102654433 0
-56/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.js1728403248555821585 0
-67/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/cursor.063ac84a.png1728403248507821326 0
-66/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/icono.44820930.png1728404126167853392 0
-65/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/logo.3f4a1874.png1728403248507821326 0
-66/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.e8d6cc23.css1728404126167853392 0
-68/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/cursor2.44f66928.cur1728403841950653776 0
-65/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.f73c1fe9.js1728404126167853392 0
-66/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/js.00a46daa.js.map1728403248567821651 0
+68/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/cursor2.dfb675bf.cur1728406313046227013 0
+58/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.html1728406313254228067 0
+67/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/cursor.6c136806.png1728406313254228067 0
+66/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/icono.44820930.png1728406313254228067 0
+66/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.e8d6cc23.css1728406313254228067 0
+65/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.f73c1fe9.js1728406313254228067 0
 55/home/dam/PeterMartEsc/DAD/trabajo-api-lol/package.json1728404324960663992 0
 81/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/ordered-binary/index.d.ts1728403481925012863 0
 85/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/ordered-binary/dist/index.cjs1728403481793012224 0
@@ -282,7 +271,7 @@
 68/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/posthtml/lib1728403481797012243 1
 70/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/posthtml/types1728403481837012435 1
 64/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/posthtml1728403481817012341 1
-74/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/.package-lock.json1728403726278145334 0
+74/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/.package-lock.json1728404402468975652 0
 83/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/domelementtype/package.json1728403481853012513 0
 89/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/domelementtype/lib/esm/index.d.ts1728403481885012668 0
 87/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/domelementtype/lib/esm/index.js1728403481801012262 0
@@ -510,7 +499,6 @@
 103/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@swc/helpers/cjs/_class_private_method_init.cjs1728403482201014197 0
 84/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@swc/helpers/cjs/_update.cjs1728403482213014255 0
 105/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@swc/helpers/cjs/_check_private_redeclaration.cjs1728403482201014197 0
-66/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.c92073ef.css1728403842090654380 0
 101/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@swc/helpers/cjs/_iterable_to_array_limit.cjs1728403482209014236 0
 89/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@swc/helpers/cjs/_ts_decorate.cjs1728403482213014255 0
 108/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@swc/helpers/cjs/_class_private_field_loose_base.cjs1728403482201014197 0
@@ -790,7 +778,7 @@
 129/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-htmlnano/node_modules/mdn-data/css/syntaxes.schema.json1728403482005013249 0
 86/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/runtime-service-worker1728403481817012341 1
 105/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/css-tree/lib/syntax/node/PseudoElementSelector.js1728403482185014119 0
-60/home/dam/PeterMartEsc/DAD/trabajo-api-lol/package-lock.json1728403726254145226 0
+60/home/dam/PeterMartEsc/DAD/trabajo-api-lol/package-lock.json1728404402444975554 0
 99/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/type-fest/source/union-to-intersection.d.ts1728403481997013210 0
 94/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/css-tree/lib/syntax/node/Combinator.js1728403482145013927 0
 95/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/reporter-cli/src/phaseReport.js1728403481957013016 0
@@ -1277,7 +1265,7 @@
 107/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb_dump.11728403481993013191 0
 96/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/reporter-dev-server/package.json1728403482029013366 0
 103/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/caniuse-lite/data/features/css-text-box-trim.js1728403482165014022 0
-61/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@lmdb1728403726206145013 1
+61/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@lmdb1728404402392975346 1
 87/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/caniuse-lite/data/regions/HK.js1728403482213014255 0
 99/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/csso/node_modules/css-tree/lib/syntax/scope1728403482197014178 1
 76/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/json5/lib/index.d.ts1728403481961013036 0
@@ -1487,7 +1475,7 @@
 106/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/caniuse-lite/data/features/input-file-directory.js1728403482217014275 0
 107/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/caniuse-lite/data/features/link-rel-dns-prefetch.js1728403482229014333 0
 52/home/dam/PeterMartEsc/DAD/trabajo-api-lol/.cache/771728403248519821392 1
-65/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/logo.ad475446.png1728404125903852303 0
+65/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/logo.ad475446.png1728406313066227112 0
 98/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@swc/helpers/_/_object_spread/package.json1728403482157013984 0
 132/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/SelectorList.js1728403482133013869 0
 85/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/css-tree/lib/syntax/create.js1728403482149013947 0
@@ -2021,7 +2009,6 @@
 100/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/caniuse-lite/data/features/css3-boxsizing.js1728403482173014061 0
 107/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@babel/highlight/node_modules/color-convert/LICENSE1728403481841012455 0
 52/home/dam/PeterMartEsc/DAD/trabajo-api-lol/.cache/101728403248415820829 1
-60/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.js.map1728403248567821651 0
 106/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/caniuse-lite/data/features/css-element-function.js1728403482133013869 0
 86/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/core/src/Dependency.js1728403482081013616 0
 52/home/dam/PeterMartEsc/DAD/trabajo-api-lol/.cache/021728403248407820783 1
@@ -2177,7 +2164,7 @@
 107/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/dom-serializer/node_modules/entities/lib/index.d.ts1728403481941012939 0
 89/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/runtime-react-refresh/lib1728403481789012204 1
 83/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/workers/lib/threads1728403482001013230 1
-42/home/dam/PeterMartEsc/DAD/trabajo-api-lol1728404125219849482 1
+42/home/dam/PeterMartEsc/DAD/trabajo-api-lol1728406313042226990 1
 89/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/source-map/dist/source-map.min.js1728403482005013249 0
 91/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@swc/helpers/_/_to_consumable_array1728403482173014061 1
 76/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/lmdb/src/lmdb-js.cpp1728403482125013830 0
@@ -3088,7 +3075,7 @@
 87/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/runtime-js/package.json1728403482025013346 0
 93/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/core/lib/public/Dependency.js1728403482081013616 0
 102/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/caniuse-lite/data/features/css-revert-value.js1728403482161014003 0
-55/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules1728403726206145013 1
+55/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules1728404402392975346 1
 113/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/Doxyfile1728403481905012766 0
 87/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/caniuse-lite/data/regions/TM.js1728403482265014506 0
 67/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/timsort/src1728403481873012610 1
@@ -3137,7 +3124,7 @@
 52/home/dam/PeterMartEsc/DAD/trabajo-api-lol/.cache/881728403248523821413 1
 115/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/css-select/lib/types.js1728403481929012882 0
 89/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/css-select/lib/esm/compile.js.map1728403482009013269 0
-69/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.f73c1fe9.js.map1728404126171853407 0
+69/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.f73c1fe9.js.map1728406313258228090 0
 77/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/js-yaml/lib/loader.js1728403481973013094 0
 111/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/rust/parcel-node-bindings.linux-arm64-musl.node1728403482425015281 0
 87/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/caniuse-lite/data/regions/WF.js1728403482273014545 0
@@ -3727,7 +3714,6 @@
 82/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/utils/lib/index.js1728403482077013597 0
 78/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/semver/functions/eq.js1728403481901012746 0
 75/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/nth-check/README.md1728403481937012919 0
-65/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/style.78032849.js1728403248555821585 0
 85/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-css/LICENSE1728403481785012185 0
 102/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/caniuse-lite/data/features/wasm-bulk-memory.js1728403482269014526 0
 74/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/css-tree/cjs/lexer1728403482117013791 1
@@ -4068,7 +4054,6 @@
 95/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/csso/lib/replace/property/background.js1728403482049013461 0
 132/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/TypeSelector.js1728403482145013927 0
 77/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/codeframe/lib1728403482065013539 1
-66/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/icono.be1ffe50.png1728403248507821326 0
 96/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/csso/lib/replace/property/font-weight.js1728403482077013597 0
 130/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/node/String.js1728403482137013888 0
 82/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/csso/lib/replace/Atrule.js1728403482045013444 0
@@ -4323,7 +4308,7 @@
 92/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/csso/node_modules/css-tree/cjs/lexer1728403482117013791 1
 120/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/index.js1728403482093013675 0
 102/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/csso/node_modules/css-tree/cjs/lexer/Lexer.cjs1728403482073013578 0
-70/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.e8d6cc23.css.map1728404126171853407 0
+70/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.e8d6cc23.css.map1728406313258228090 0
 102/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/csso/node_modules/css-tree/cjs/lexer/error.cjs1728403482033013385 0
 95/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/packager-svg/src/SVGPackager.js1728403481817012341 0
 79/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/fill-range/package.json1728403481793012224 0
@@ -4434,7 +4419,7 @@
 77/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/csso/dist/csso.esm.js1728403482065013539 0
 74/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/color-name/LICENSE1728403481793012224 0
 79/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/color-name/package.json1728403481785012185 0
-63/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel1728403726206145013 1
+63/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel1728404402392975346 1
 111/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/package-manager/test/NodePackageManager.test.js1728403482017013307 0
 77/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/graph/LICENSE1728403481785012185 0
 90/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/graph/lib/AdjacencyList.js1728403481857012532 0
@@ -4451,7 +4436,6 @@
 106/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/csso/node_modules/css-tree/cjs/tokenizer/index.cjs1728403482069013558 0
 86/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/graph/test/integration1728403481797012243 1
 117/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/graph/test/integration/adjacency-list-shared-array.js1728403481809012301 0
-70/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/index.c92073ef.css.map1728403842090654380 0
 86/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/core/src/assetUtils.js1728403482045013444 0
 99/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/reporter-cli/lib/CLIReporter.js.map1728403482013013288 0
 92/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/package-manager/src/types.js1728403482025013346 0
@@ -4892,7 +4876,6 @@
 92/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/diagnostic/src/diagnostic.js1728403481829012397 0
 92/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/core/lib/summarizeRequest.js1728403482161014003 0
 91/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/reporter-dev-server/LICENSE1728403481785012185 0
-70/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/style.78032849.css.map1728403248571821671 0
 87/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/reporter-dev-server/lib1728403482029013366 1
 105/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/reporter-dev-server/lib/ServerReporter.js1728403482025013346 0
 94/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/packager-js/lib/DevPackager.js1728403481857012532 0
@@ -5057,7 +5040,7 @@
 125/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/Value.js1728403482145013927 0
 127/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/AnPlusB.js1728403481861012552 0
 125/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/Ratio.js1728403482129013849 0
-47/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist1728404126171853407 1
+47/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist1728406313258228090 1
 94/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/svgo/plugins/addClassesToSVGElement.js1728403482065013539 0
 107/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/css-select/node_modules/domhandler/lib/esm/index.js1728403481809012301 0
 139/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/PseudoClassSelector.js1728403482129013849 0
@@ -5159,7 +5142,6 @@
 116/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/clean/Atrule.js1728403481909012785 0
 104/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/htmlnano/lib/modules/sortAttributesWithLists.mjs1728403482117013791 0
 122/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/clean/TypeSelector.js1728403482049013461 0
-66/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/icono.67f97e75.png1728403842030654120 0
 118/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/replace/String.js1728403482049013461 0
 81/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@swc/helpers/cjs/_jsx.cjs1728403482209014236 0
 112/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/package-manager/test/fixtures/empty/package.json1728403482037013405 0
@@ -5248,7 +5230,6 @@
 120/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/cleanupAttrs.js1728403481917012824 0
 130/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/convertEllipseToCircle.js1728403481965013055 0
 124/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/_applyTransforms.js1728403481825012377 0
-69/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/style.78032849.js.map1728403248567821651 0
 75/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/js-tokens/README.md1728403481821012358 0
 110/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-htmlnano/node_modules/css-select/lib1728403481997013210 1
 134/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/removeAttributesBySelector.js1728403482033013385 0
@@ -5258,7 +5239,6 @@
 83/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@swc/helpers/cjs/_throw.cjs1728403482209014236 0
 126/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/removeRasterImages.js1728403482053013480 0
 128/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/cleanupNumericValues.js1728403481937012919 0
-62/home/dam/PeterMartEsc/DAD/trabajo-api-lol/dist/js.00a46daa.js1728403248551821565 0
 109/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/css-select/node_modules/domutils/lib/helpers.d.ts.map1728403481965013055 0
 85/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/caniuse-lite/data/browsers.js1728403482069013558 0
 117/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/prefixIds.js1728403482029013366 0
@@ -5318,14 +5298,14 @@
 127/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/css-select/node_modules/entities/lib/generated/decode-data-xml.d.ts.map1728403482001013230 0
 79/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/fs/lib/index.js1728403481893012707 0
 81/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/fs/lib/browser.js1728403481821012358 0
-73/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@msgpackr-extract1728403726206145013 1
+73/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@msgpackr-extract1728404402392975346 1
 71/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/fs/test1728403481937012919 1
 73/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/csso/lib/usage.js1728403482089013655 0
 79/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/fs/package.json1728403481945012958 0
 89/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/css-tree/lib/lexer/match-graph.js1728403482173014061 0
 129/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/lexer/match-graph.js1728403482109013752 0
 79/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/fs/src/types.js1728403481945012958 0
-60/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@swc1728403726206145013 1
+60/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@swc1728404402392975346 1
 90/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/optimizer-css/package.json1728403481849012494 0
 105/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/css-tree/cjs/syntax/node/common/feature-range.cjs1728403482037013405 0
 107/home/dam/PeterMartEsc/DAD/trabajo-api-lol/node_modules/@parcel/package-manager/src/MockPackageInstaller.js1728403482009013269 0
