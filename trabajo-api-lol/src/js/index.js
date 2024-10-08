@@ -11,7 +11,10 @@ const button = document.querySelector("button");
 button.addEventListener("click", () => {
 
     // Al hacer click sobre el botón, cambiamos su visibilidad y lo ocultamos
-    document.querySelector('#button').style.visibility = 'hidden';
+    document.querySelector('#button').style.display = 'none';
+
+    document.querySelector('#infoP').style.visibility = 'visible';
+
     // También cambiamos la visibilidad del elemento #wiki, y lo mostramos en pantalla
     document.querySelector('#wiki').style.visibility = 'visible';
     //Oke.sound.play();
@@ -63,16 +66,6 @@ const showWiki = async () => {
     const wiki = document.getElementById("wiki");
     // Iteramos sobre cada elemento del array champs
     for(var i = 0; i < champs.length; i++) {
-        /*var aux =  0;
-        while (aux != champs[i].champ_types.length) {
-            if (aux == 0)
-                var tipo1 = champs[i].champ_types[aux].i.name;                       
-            if (aux == 1)   
-                var tipo2 = champs[i].pkm_type[aux].type.name;
-            else 
-                tipo2 = "";          
-            aux++; 
-        }*/
 
 
         // Para cada Pokemon, se crea una tarjeta con imágenes (vista frontal y trasera), el nombre y los tipos

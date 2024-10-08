@@ -17,13 +17,65 @@ body{
     height: 30px;
     cursor: pointer;
     border-radius: 5px;
+    background-color: gold;
 }
 
 .button:hover{
-    animation: aumentar, 1s;
+    animation-name: aumentarColores;
+    animation-duration: 1s;
+    animation-direction: alternate; /*Alterna la animación de forma que primero va de 0 a 100 luego de 100 a 0 luego de 0 a 100, etc*/
+    animation-iteration-count: infinite;
 }
+
+@keyframes aumentarColores{
+    0% {
+        transform: scale(1);
+        background-color: gold;
+    }
+    100% {
+        transform: scale(1.5);
+        background-color: orange;
+    }
+    
+}
+
+.info{
+    text-align: center;
+}
+
+.infoP{
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: DejaVu Sans Mono;
+    
+    border: solid 3px;
+    border-radius: 5px;
+    
+    width: 350px;
+    height: 16px;
+    background-color: white;
+    font-family: DejaVu Sans Mono;
+    font-size: 14px;
+}
+
 .champSelect{
     background-color: black !important;
+}
+
+.champSelect:hover{
+    animation-name: aumentar;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;  /*Mantiene el aumento de la animación*/
+}
+
+@keyframes aumentar{
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+    
 }
 
 .body{
@@ -85,16 +137,3 @@ body{
     background: linear-gradient(rgb(0, 255, 255), rgb(0, 140, 255));
 }
 
-@keyframes aumentar{
-    0%{
-        transform: scale(1);
-    }
-
-    50%{
-        transform: scale(1.2);
-    }
-
-    100%{
-        transform: scale(1.5);
-    }
-}

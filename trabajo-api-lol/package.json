@@ -1,11 +1,17 @@
 {
   "name": "trabajo-api-lol",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve -d dist src/index.html",
+    "build": "parcel build build --public-url /DAD/ src/index.html",
+    "deploy": "gh-pages -d build"
+},
   "author": "Pedro Martin Escuela",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
 }
