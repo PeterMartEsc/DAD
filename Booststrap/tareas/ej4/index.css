@@ -1,0 +1,28 @@
+.row{
+    height: auto;
+    border: 1px black solid;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.rosa{
+    background-color: rgb(226, 43, 156);
+}
+
+.morado{
+    background-color:rgb(201, 88, 201);
+}
+
+.naranja{
+    background-color: orange;
+}
+
+.aqua{
+    background-color: aquamarine;
+}
+
+.verde{
+    background-color:chartreuse;
+}
