@@ -6,5 +6,15 @@
     font-size: 20px;
 }
 
+.LP{
+    text-align: left;
+}
 
+.sp{
+    text-align: right;
+}
 
+.btLP{
+    width: 200px;
+    height: 164px;
+}
