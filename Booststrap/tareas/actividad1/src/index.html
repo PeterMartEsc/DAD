@@ -10,63 +10,64 @@
     <title>Actividad 1</title>
 </head>
 <body>
+    <header>
     <!--Nav bar-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container-fluid">
-            <img src="img/pdc-logo.png" alt="Logo" width="20" height="30" class="d-inline-block align-text-top">
-            
-            <a class="navbar-brand text-light" href="#">Canarias</a>
-            
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <!--<span class="navbar-toggler-icon"></span>-->
-                <i class="bi bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-
-                <ul class="navbar-nav me-auto my-2 my-lg-0">
-                    <li class="nav-link">
-                        <a class="nav-link active " href="#">Portada</a>
-                    </li>
-                    <li class="nav-link">
-                        <a class="nav-link text-light" href="#">Deportes</a>
-                    </li>
-                    <li class="nav-link ">
-                        <a class="nav-link text-light" href="#">Rutas</a>
-                    </li>
-                    <li class="nav-link ">
-                        <a class="nav-link text-light">Contactanos</a>
-                    </li>
-                    <li>
-                        <i class="nav-link bi bi-exclamation-triangle-fill text-warning icon"></i>
-                    </li>
-                    <li>
-                        <i class="nav-link bi bi-exclamation-circle-fill text-danger icon"></i>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+                <img src="img/pdc-logo.png" alt="Logo" width="20" height="30" class="d-inline-block align-text-top">
                 
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
+                <a class="navbar-brand text-light" href="#">Canarias</a>
+                
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--<span class="navbar-toggler-icon"></span>-->
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
 
-    <!--Breadcrump-->
-    <div class="container-fluid breadcrump">
-        <nav aria-label="breadcrumb" style="margin-top: 10px;">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0">
+                        <li class="nav-link">
+                            <a class="nav-link active " href="#">Portada</a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="nav-link text-light" href="#">Deportes</a>
+                        </li>
+                        <li class="nav-link ">
+                            <a class="nav-link text-light" href="#">Rutas</a>
+                        </li>
+                        <li class="nav-link ">
+                            <a class="nav-link text-light">Contactanos</a>
+                        </li>
+                        <li>
+                            <i class="nav-link bi bi-exclamation-triangle-fill text-warning icon"></i>
+                        </li>
+                        <li>
+                            <i class="nav-link bi bi-exclamation-circle-fill text-danger icon"></i>
+                        </li>
+                    </ul>
+                    
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!--Breadcrump-->
+        <nav aria-label="breadcrumb" style="padding-top: 15px; padding-bottom: 2px;" class="bg-light">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item active" aria-current="page">Portada</li>
             </ol>
         </nav>
-    </div>
-
+    </header>
     
+    <br/>
+
     <div class="container-fluid">
-        
+
         <div class="row">
             <!--Indice-->
-            <div class="col-2 indice" style="height: auto;">
+            <div class="col-12 col-lg-2 indice" style="height: auto;">
                 <nav class="d-flex flex-column">
                         <li class="nav-link">
                             <a class="nav-link" href="#Poblacion">Población</a>
@@ -81,75 +82,135 @@
                         </li>
                 </nav>
             </div>
+        
+            <div class="col-12 col-lg-10">
 
-            
-                <div class="col-4">
+                <div class="row">
 
-                    <h5>Santa Cruz de Tenerife</h5>
-                    <ol class="list-group">
-                        <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
-                            <div class="ms-2 me-auto">
+                    <div class="col-12 col-lg-6">
+
+                        <h5>Santa Cruz de Tenerife</h5>
+                        <ol class="list-group">
+                            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
                                 Tenerife
-                            </div>
-                            <span class="badge bg-primary rounded-pill">966.354</span>
-                        </li>
-                        <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
-                            <div class="ms-2 me-auto">
+                                <span class="badge bg-primary rounded-pill">966.354</span>
+                            </li>
+                            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
                                 La Gomera
-                            </div>
-                            <span class="badge bg-primary rounded-pill">22.426</span>
-                        </li>
-                        <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
-                            <div class="ms-2 me-auto">
+                                <span class="badge bg-primary rounded-pill">22.426</span>
+                            </li>
+                            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
                                 El Hierro
-                            </div>
-                            <span class="badge bg-primary rounded-pill">11.338</span>
-                        </li>
-                        <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
-                            <div class="ms-2 me-auto">
+                                <span class="badge bg-primary rounded-pill">11.338</span>
+                            </li>
+                            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
                                 La Palma
-                            </div>
-                            <span class="badge bg-primary rounded-pill">85.840</span>
-                        </li>
-                    </ol>
+                                <span class="badge bg-primary rounded-pill">85.840</span>
+                            </li>
+                        </ol>
 
-                </div>
-                <div class="col-4">
-
-                    <h5>Las Palmas</h5>
-                    <div class="btn-group-vertical btLP" role="group">
-                        <button type="button" class="btn btn-outline-dark">
-                            <div class="LP">
-                                Gran Canaria
-                                <span class="badge bg-primary rounded-pill">870.595</span>
-                            </div>
-                        </button>
-
-                        <button type="button" class="btn btn-outline-dark">
-                            <div class="LP">
-                                Lanzarote
-                                <span class="badge bg-primary rounded-pill">154.530</span>
-                            </div>
-                        </button>
-
-                        <button type="button" class="btn btn-outline-dark">
-                            <div class="LP">
-                                Fuerteventura
-                                <span class="badge bg-primary rounded-pill">126.227</span>
-                            </div>
-                        </button>
-
-                        <button type="button" class="btn btn-outline-dark">
-                            <div class="LP">
-                                La Graciosa
-                                <span class="badge bg-primary rounded-pill">734</span>
-                            </div>
-                        </button>
                     </div>
-                    
+
+                    <div class="col-12 col-lg-6">
+
+                        <h5>Las Palmas</h5>
+                        <div class="btn-group-vertical d-flex" role="group">
+                            <button type="button" class="btn btn-outline-secondary d-flex justify-content-between align-items-center ">
+                                Gran Canaria
+                                <span class="badge bg-info rounded-pill">870.595</span>
+                            </button>
+
+                            <button type="button" class="btn btn-outline-secondary d-flex justify-content-between align-items-center">
+                                Lanzarote
+                                <span class="badge bg-info rounded-pill">154.530</span>
+                            </button>
+
+                            <button type="button" class="btn btn-outline-secondary d-flex justify-content-between align-items-center">
+                                Fuerteventura
+                                <span class="badge bg-info rounded-pill">126.227</span>
+                            </button>
+
+                            <button type="button" class="btn btn-outline-secondary d-flex justify-content-between align-items-center">
+                                La Graciosa
+                                <span class="badge bg-info rounded-pill">734</span>
+                            </button>
+                        </div>
+                        
+                    </div>
                 </div>
+
+                <br>
+                <br>
+
+                <div class="col-12 col-lg-10">
+                
+                    <div class="row">
+    
+                        <h3>Gastronomía</h3>
+                        <br><br>
+
+                        <h5>Menu</h5>
+                        <br><br>
+
+                        <div class="col-4">
+                            <h5>Primeros</h5>
+                            <ol class="list-group">
+                                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                                    Ensalada tropical
+                                </li>
+                                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                                    Escaldón
+                                </li>
+                                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                                    Queso
+                                </li>
+                                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                                    Croquetas
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="col-4">
+                            <h5>Segundos</h5>
+                            <ol class="list-group">
+                                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start text-primary">
+                                    Ensalada tropical
+                                </li>
+                                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start text-primary">
+                                    Escaldón
+                                </li>
+                                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start text-primary">
+                                    Queso
+                                </li>
+                                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start text-primary">
+                                    Croquetas
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="col-4">
+                            <h5>Terceros</h5>
+                            <ol class="list-group">
+                                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                                    Ensalada tropical
+                                </li>
+                                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                                    Escaldón
+                                </li>
+                                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                                    Queso
+                                </li>
+                                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                                    Croquetas
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
+        
+        
     </div>
     <br>
 
