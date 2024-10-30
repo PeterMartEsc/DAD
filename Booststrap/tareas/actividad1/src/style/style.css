@@ -17,3 +17,9 @@
 .btLP{
     height: 164px;
 }
+
+.card{
+    margin: auto;
+    width: 18rem;
+    height: 400px;
+}
