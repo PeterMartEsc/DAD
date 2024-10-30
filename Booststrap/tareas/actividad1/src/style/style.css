@@ -1,25 +1,8 @@
-.logo{
-    margin-right: 6px;
-}
-
 .icon{
     font-size: 20px;
 }
 
-.LP{
-    text-align: left;
-}
-
-.sp{
-    text-align: right;
-}
-
-.btLP{
-    height: 164px;
-}
 
 .card{
     margin: auto;
-    width: 18rem;
-    height: 400px;
 }
