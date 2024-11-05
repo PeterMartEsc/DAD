@@ -12,11 +12,13 @@
 <body>
     <header>
         <!--Nav bar-->
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                <div class="container-fluid " style="padding-left: 80px; padding-right: 80px;">
-                    <img src="img/pdc-logo.png" alt="Logo" width="20" height="30" class="d-inline-block align-text-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+                <div class="container align-items-center">
+                    <div class="d-flex d-inline-block">
+                        <img src="img/pdc-logo.png" alt="Logo" width="20" height="30" class="d-inline-block align-text-top">
                     
-                    <a class="navbar-brand text-light" href="#">Canarias</a>
+                        <h5 class="navbar-brand text-light" href="#">Canarias</h5>
+                    </div>
                     
                     <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="bi bi-list"></i>
@@ -26,10 +28,10 @@
     
                         <ul class="navbar-nav me-auto my-2 my-lg-0">
                             <li class="nav-link">
-                                <a class="nav-link active " href="./index.html">Portada</a>
+                                <a class="nav-link active" href="./index.html">Portada</a>
                             </li>
                             <li class="nav-link">
-                                <a class="nav-link text-light" href="#">Deportes</a>
+                                <a class="nav-link text-light" href="./deportes.html">Deportes</a>
                             </li>
                             <li class="nav-link ">
                                 <a class="nav-link text-light" href="./rutas.html">Rutas</a>
@@ -55,71 +57,76 @@
             </nav>
     
             <!--Breadcrump-->
-            <nav style="--bs-breadcrumb-divider: '>'; padding-left: 80px; padding-top: 15px; padding-bottom: 2px;" aria-label="breadcrumb" class="bg-light">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                    <li class="breadcrumb-item active">Deportes</a></li>
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="bg-light">
+                    <ol class="breadcrumb p-3">
+                        <li class="breadcrumb-item"><a href="./index.html">Portada</a></li>
+                        <li class="breadcrumb-item active">Deportes</a></li>
 
-                </ol>    
+                    </ol>    
+                </nav>
             </nav>
-        </nav>
     </header>
 
     <main>
-        <div class="row">
+        
+        <div class="container">
+            <div class="row g-0">
 
-            <div class="col-lg-4 col-md-6 col-xs-12 p-3">
+                <div class="col-lg-4 col-md-6 col-xs-12 my-3">
 
-                <div class="card">
+                    <div class="card h-100">
 
-                    <img class="card-img-top" src="./img/buceo.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Buceo</h5>
-                        <p class="card-text"></p>
+                        <img class="card-img-top" src="./img/buceo.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Buceo</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                        </div>
+
+                        <div class="card-footer text-muted text-start">
+                            Last updated 3 min ago
+                        </div>
+
                     </div>
 
-                    <div class="card-footer text-muted">
-                        Last updated 3 min ago
+                </div >
+            
+
+                <div class="col-lg-4 col-md-6 col-xs-12 my-3">
+                    
+                    <div class="card h-100" >
+                        <img class="card-img-top" src="./img/parapente.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Parapente</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            
+                        </div>
+
+                        <div class="card-footer text-muted text-center">
+                            Last updated 3 min ago
+                        </div>
                     </div>
+
                 </div>
 
-            </div>
+                <div class="col-lg-4 col-md-12 col-xs-12 my-3">
 
-            <div class="col-lg-4 col-md-6 col-xs-12 p-3">
-                
-                <div class="card" >
-                    <img class="card-img-top" src="./img/parapente.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        
+                    <div class="card h-100" >
+
+                        <img class="card-img-top" src="./img/surf.jpg" alt="Card image cap">
+
+                        <div class="card-body h-100">
+                            <h5 class="card-title">Surf</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. The card has even longer content than the first to show that equal height action</p>
+                        </div>
+
+                        <div class="card-footer text-muted text-end">
+                            Last updated 3 min ago
+                        </div>
                     </div>
 
-                    <div class="card-footer text-muted">
-                        Last updated 3 min ago
-                    </div>
                 </div>
 
-            </div>
-
-            <div class="col-lg-4 col-md-12 col-xs-12 p-3">
-
-                <div class="card" >
-
-                    <img class="card-img-top" src="./img/surf.jpg" alt="Card image cap">
-
-                    <div class="card-body">
-                        <h5 class="card-title">Surf</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-
-                    <div class="card-footer text-muted">
-                        Last updated 3 min ago
-                    </div>
-                </div>
-                
-            </div>
-
+        </div>
         </div>
 
     </main>
@@ -127,3 +134,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<!--<div class="d-none d-lg-flex p-3">-->
