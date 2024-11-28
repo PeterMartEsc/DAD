@@ -47,7 +47,7 @@
 
             const duplicate = () => {
                 if(counter.value * 2 >= 10){
-                    message.value = "¡El valor sería alto!";
+                    message.value = "¡El valor es alto!";
                 } else {
                     message.value = " ";
                 }

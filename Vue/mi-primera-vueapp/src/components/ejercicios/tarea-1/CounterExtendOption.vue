@@ -47,7 +47,7 @@
 
             duplicate(){
                 if(this.counter * 2 >= 10){
-                    this.message = "¡El valor sería alto!";
+                    this.message = "¡El valor es alto!";
                 } else {
                     this.message = " ";
                 }
