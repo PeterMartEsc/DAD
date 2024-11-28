@@ -5,6 +5,8 @@
     <button @click="duplicate">Multiplicar</button>
     <button @click="restart">Reiniciar</button>
     <p>{{ message }}</p>
+
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yBdKVnu1093hDv502OTkCQHaIq%26pid%3DApi%26h%3D160&f=1&ipt=4fd07340f136e5413f6e7bd2b4b3c42558b24014792bf497b365d76c063435c3&ipo=images" alt="">
 </template>
 
 <script>
@@ -20,30 +22,36 @@
 
         methods: {
             addCounter(){
-                if(this.counter === 10){
+                if(this.counter >= 10){
                     this.message = "¡El valor es alto!";
                 } else {
                     this.message = " ";
-                    this.counter++;
                 }
+                this.counter++;
+
             },
 
             reduceCounter(){
-                if(this.counter > 0){
+                if(this.counter >= 10){
+                    this.message = "¡El valor es alto!";
+                } 
+                
+                if(this.counter > 0 && this.counter < 10){
                     this.message = " ";
-                    this.counter--;
-                } else {
+                } else if(this.counter === 0){
                     this.message = "No se puede poner menos que 0";
+                    return;
                 }
+                this.counter--;
             },
 
             duplicate(){
-                if(this.counter * 2 <= 10){
-                    this.message = " ";
-                    this.counter=this.counter*2;
-                } else {
+                if(this.counter * 2 >= 10){
                     this.message = "¡El valor sería alto!";
+                } else {
+                    this.message = " ";
                 }
+                this.counter=this.counter*2;
             },
 
             restart(){

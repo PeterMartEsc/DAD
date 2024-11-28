@@ -5,6 +5,8 @@
     <button @click="duplicate">Multiplicar</button>
     <button @click="restart">Reiniciar</button>
     <p>{{ message }}</p>
+
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Um_gOzpdXyl69bm03SggZQHaLH%26pid%3DApi%26h%3D160&f=1&ipt=41a5613563bd3eb25b4c6c1a64e4c40d5dabea770ebfd52629bb79772a34520f&ipo=images">
 </template>
 
 <script>
@@ -18,12 +20,13 @@
 
             const addCounter = () => {
 
-                if(counter.value === 10){
+                if(counter.value >= 10){
                     message.value = "¡El valor es alto!";
                 } else {
                     message.value = " ";
-                    counter.value++;
                 }
+                counter.value++;
+
             };
 
             const reduceCounter = () => {
@@ -38,16 +41,16 @@
             };
 
             const duplicate = () => {
-                if(counter.value * 2 <= 10){
-                    message.value = " ";
-                    counter.value=counter.value*2;
-                } else {
+                if(counter.value * 2 >= 10){
                     message.value = "¡El valor sería alto!";
+                } else {
+                    message.value = " ";
                 }
+
+                counter.value=counter.value*2;
             };
 
             const restart = () => {
-                
                 message.value = " ";
                 counter.value=0;
             };
