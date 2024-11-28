@@ -31,12 +31,17 @@
 
             const reduceCounter = () => {
 
-                if(counter.value > 0){
+                if(counter.value >= 10){
+                    message.value = "¡El valor es alto!";
+                } 
+                
+                if(counter.value > 0 && counter.value < 10){
                     message.value = " ";
-                    counter.value--;
-                } else {
+                } else if(counter.value === 0){
                     message.value = "No se puede poner menos que 0";
+                    return;
                 }
+                counter.value--;
 
             };
 
