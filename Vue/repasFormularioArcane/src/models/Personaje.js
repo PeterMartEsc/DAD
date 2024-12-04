@@ -9,6 +9,13 @@ class Personaje {
     }
 
     showInfo(){
-        
+        return `<div class="card">
+                    <p><b>Nombre:</b> ${this.nombre}<br>
+                    <p><b>Origen:</b> ${this.origen}</p><br>
+                    <p><b>Habilidades:</b> ${this.aliados}</p><br>
+                    <p><b>Mision:</b> ${this.mision}</p><br>
+                </div>`
     }
 }
+
+export default Personaje;

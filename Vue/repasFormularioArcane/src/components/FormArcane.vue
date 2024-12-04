@@ -5,8 +5,11 @@
             <input type="text" name="origen" id="origen">
             <input type="text" name="habilidad" id="habilidad">
             <input type="text" name="aliados" id="aliados">
-            <input type="radio" name="mision-si" id="mision-no">
+            <input type="radio" name="mision-si" id="mision-si">
+            <input type="radio" name="mision-no" id="mision-no">
+
         </form>
+        {{ personajeNuevo.showInfo() }}
     </div>
 </template>
 
@@ -17,9 +20,10 @@
         name: 'FromArcane',
 
         data(){
-            const personajeNuevo = new Personaje();
+            let personajeNuevo = new Personaje("nombre", "origen", "habilidad", "aliados", "mision-si");
+            let arrayPersonajes = [];
             return {
-                personajeNuevo
+                personajeNuevo, arrayPersonajes
             }
         },
 
