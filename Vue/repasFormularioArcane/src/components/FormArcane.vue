@@ -40,7 +40,7 @@
         <div class="tablaPersonajes m-auto pt-2">
 
             <table class="table table-striped table-bordered text-center">
-                <thead>
+                <thead class="powderBlue">
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Nombre</th>
@@ -137,5 +137,9 @@
 
     .tablaPersonajes{
         width: 800px;
+    }
+
+    .powderBlue{
+        background-color: rgb(176,224,230);
     }
 </style>
